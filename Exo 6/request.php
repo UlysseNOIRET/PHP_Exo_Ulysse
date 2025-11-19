@@ -6,7 +6,7 @@ if (isset($_GET["sort"])){
     $sort = $_GET["sort"];
 }
 
-$order = "desc";
+$order = "asc";
 if (isset($_GET["order"])){
     $order = $_GET["order"];
 }
@@ -33,16 +33,3 @@ echo"<table>
         </tr>";
     }
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    
-</body>
-</html>
